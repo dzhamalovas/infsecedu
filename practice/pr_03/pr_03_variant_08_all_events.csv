@@ -1,0 +1,15 @@
+﻿variant;variant_title;event_id;date;time;source;actor;account;ip;event;details;result
+8;Временная линия;M02;2026-09-15;08:41:37;Почта;support@edu-help.example → teacher.ivanova;teacher.ivanova;;письмо «Срочно подтвердите учётную запись LMS», ссылка https://lms-confirm.edu-help.example/login;;доставлено
+8;Временная линия;M03;2026-09-15;08:44:03;Почта;teacher.ivanova;teacher.ivanova;10.20.5.14;переход по ссылке https://lms-confirm.edu-help.example/login из письма M02;;url_click
+8;Временная линия;A02;2026-09-15;08:47:26;Аутентификация;teacher.ivanova;teacher.ivanova;203.0.113.77;вход в LMS;;неудача (неверный пароль)
+8;Временная линия;A03;2026-09-15;08:47:41;Аутентификация;teacher.ivanova;teacher.ivanova;203.0.113.77;вход в LMS;;успех
+8;Временная линия;A04;2026-09-15;08:47:42;Аутентификация;teacher.ivanova;teacher.ivanova;203.0.113.77;создана сессия SES-7781;;успех
+8;Временная линия;L02;2026-09-15;08:51:12;LMS;teacher.ivanova;teacher.ivanova;203.0.113.77;экспорт участников курса course-INF-7A;31 запись;
+8;Временная линия;L03;2026-09-15;08:54:05;LMS;teacher.ivanova;teacher.ivanova;203.0.113.77;изменение оценки student-S014;4 → 5;
+8;Временная линия;L04;2026-09-15;08:54:39;LMS;teacher.ivanova;teacher.ivanova;203.0.113.77;изменение оценки student-S022;3 → 5;
+8;Временная линия;L05;2026-09-15;08:57:10;LMS;teacher.ivanova;teacher.ivanova;203.0.113.77;создан API-токен token-T91;права: чтение курса, изменение оценок;
+8;Временная линия;L06;2026-09-15;09:03:18;LMS;teacher.ivanova;teacher.ivanova;203.0.113.77;скачивание файлов задания task-2026-08-20;12 файлов;
+8;Временная линия;A06;2026-09-15;09:14:37;Аутентификация;teacher.ivanova;teacher.ivanova;10.20.5.14;вход в LMS;;успех
+8;Временная линия;L07;2026-09-15;09:15:02;LMS;teacher.ivanova;teacher.ivanova;10.20.5.14;просмотр курса course-INF-7A;;
+8;Временная линия;L08;2026-09-15;09:16:40;LMS;teacher.ivanova;teacher.ivanova;10.20.5.14;просмотр журнала оценок course-INF-7A;;
+8;Временная линия;L09;2026-09-15;09:18:21;LMS;teacher.ivanova;teacher.ivanova;10.20.5.14;просмотр оценки student-S014;;
